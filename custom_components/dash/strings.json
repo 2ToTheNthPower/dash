@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Dash",
+        "description": "Adds Dash to your Home Assistant sidebar. Your login, entities, and services are provided automatically — there is no token to copy."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Dash is already set up."
+    }
+  }
+}

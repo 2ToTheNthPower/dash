@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.18.3/.schema/devbox.schema.json",
+  "packages": ["nodejs_24@latest"],
+  "shell": {
+    "init_hook": [
+      "echo 'Dash is ready. Try `devbox run dev`.' > /dev/null"
+    ],
+    "scripts": {
+      "install": ["npm install"],
+      "dev": ["npm run dev"],
+      "build": ["npm run build"],
+      "preview": ["npm run preview"],
+      "test": ["npm test"],
+      "typecheck": ["npm run typecheck"]
+    }
+  }
+}

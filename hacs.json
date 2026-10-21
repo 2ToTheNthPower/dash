@@ -1,0 +1,6 @@
+{
+  "name": "Dash",
+  "render_readme": true,
+  "homeassistant": "2024.7.0",
+  "content_in_root": false
+}
